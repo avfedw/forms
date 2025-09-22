@@ -38,7 +38,9 @@ class MainWindow(QWidget):
         self.letterFilter = QComboBox()
         self.letterFilter.setMaximumWidth(100)
         self.letterFilter.setMinimumWidth(100)
-        self.letterFilter.addItems(["Всі", "А", "Б", "В", "Г", "Д", "Е", "Є", "Ж", "З", "И", "І", "Ї", "Й", "К", "Л", "М", "Н", "О", "П", "Р", "С", "Т", "У", "Ф", "Х", "Ц", "Ч", "Ш", "Щ", "Ь", "Ю", "Я"   ])
+        self.letterFilter.addItems(["Всі", "А", "Б", "В", "Г", "Д", "Е", "Є", "Ж", "З", "И", 
+                                    "І", "Ї", "Й", "К", "Л", "М", "Н", "О", "П", "Р", "С", "Т", 
+                                    "У", "Ф", "Х", "Ц", "Ч", "Ш", "Щ", "Ь", "Ю", "Я"   ])
         line_layout.addWidget(self.letterFilter)
         # Date filters
         self.minDateFilterLabel = QLabel("Фільтр по даті від:")
